@@ -45,10 +45,17 @@ body{
 .desciption{
     display: flex;
     height: 20vh;
+    width: 180vh;
     color: white;
     font-size: 50px;
     align-items: center;
-    margin-left: 200px;
+  justify-content: center;
+}
+
+.desciption span{
+   align-self: flex-start;
+   margin-left: 10px;
+   
 }
 /* end desciption */
 
@@ -56,15 +63,13 @@ body{
 /* comment  */
 
 .comment{
-    height: 20vh;
+    height: 25vh;
     display: flex;
+    margin-left: 200px;
+    
     
        
 }
-/* end comment  */
-
-
-
 
 
 #comment_letter{
@@ -74,9 +79,65 @@ body{
     align-self: center;
 }
 
-#textbox{
-    background-color: green;
+.inputbox{
+    margin: 10px;
+    width: 250px;
     height: 200px;
-    width: 100vh;
     
 }
+
+#textarea{
+    padding: 20px;
+    height:150px;
+    width: 20cm;
+    font-size: 1.5em;
+    background: rgb(22, 22, 66);
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    outline: none;
+    
+}
+
+/* end comment  */
+
+
+
+/* capchar  */
+
+.footer{
+    align-items: center;
+   width: 180vh;
+   height: 200px;
+  display: flex;
+margin: 50px;
+}
+.footer span{
+    color: white;
+    font-size: 30px;
+    margin-left: 200px;
+
+}
+
+
+
+/* submit button */
+/* .footer{
+    height: 100px;
+    display: flex;
+    width: 200vh;
+    align-items: center;
+    justify-content: center;
+    
+} */
+.footer button{
+    margin-left: 80vh;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    background: rgb(196, 115, 196);
+     
+    outline:#00dfc4;
+
+}
+
