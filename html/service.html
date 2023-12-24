@@ -7,10 +7,13 @@
     <link rel="stylesheet" href="css/servisestyle.css" />
     <link rel="shortcut icon" href="Image/bf.png" type="image/x-icon" />
     <script src="js/script.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    
-
     <div class="container">
       <div id="logo"></div>
       <div id="front_name">Back</div>
@@ -18,23 +21,22 @@
     </div>
     <div class="desciption">
       <div id="message">Send Your Feedback</div>
-      <span><img src="Image/icons8-message-100.png" alt=""></span>
-      
+      <span><img src="Image/icons8-message-100.png" alt="" /></span>
     </div>
 
     <div class="comment">
-      <div id="comment_letter">Comment: </div>
+      <div id="comment_letter">Comment:</div>
       <div class="inputbox">
-           <textarea name="textarea" id="textarea" placeholder="Enter here"></textarea>
+        <textarea id="textareas" placeholder="Enter here"></textarea>
       </div>
+    </div>
+    <div class="countnumber">
+      <span id="textcount">0</span> of 100 Character
     </div>
 
     <div class="footer">
-
       <span>space for captchar</span>
-      <button onclick="toback()">Sent</button>
+      <button onclick="tobackend()">Sent</button>
     </div>
-    
-    
   </body>
 </html>

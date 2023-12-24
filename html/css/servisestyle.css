@@ -86,7 +86,7 @@ body{
     
 }
 
-#textarea{
+#textareas{
     padding: 20px;
     height:150px;
     width: 20cm;
@@ -139,5 +139,9 @@ margin: 50px;
      
     outline:#00dfc4;
 
+}
+
+.countnumber{
+    color:white;
 }
 
