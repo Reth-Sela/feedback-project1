@@ -1,0 +1,96 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(22, 22, 66);
+   
+}
+
+.container{
+   background-color: rgb(22, 22, 66);
+    height:60px;
+    width: 200vh;
+    
+    display: flex;
+    margin-top: 30px;
+    margin: 10px;
+    align-content: center;
+
+}
+
+#button{
+  
+   margin-top: 30px;
+   margin-left: 160vh;
+}
+button{
+    color: white;
+    background-color: rgb(228, 65, 228);
+    width: 100px;
+    height: 30px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+
+    
+}
+
+
+#logo{
+   
+    background-color: rgb(237, 225, 225);
+    margin-right: 2px;
+    width: 18px;
+    height: 18px;
+   border-radius: 5px;
+   align-self: center;
+    
+}
+
+#front_name{
+    margin-right: 3px; 
+    color: rgb(223, 223, 245);
+    font-size:30px;
+    align-self: center;
+
+}
+
+#back_name{
+    color: rgb(245, 148, 245);
+    font-size: 30px;
+    align-self: center;
+}
+
+
+/* despiction class */
+.description{
+    height: 80vh;
+    width: 200vh;
+    display: flex;
+    align-items: center;
+   
+    
+}
+
+.text_desciption{
+    color: white;
+    font-size: 40px;
+   margin-left: 30vh;
+}
+.icon{
+    font-size: 25px;
+    color: rgb(230, 157, 230);
+}
+
+.photos{
+    
+  margin-left: 100px;
+  margin-top: 150px;
+}
+
+#messagebox{
+    justify-content: flex-start;
+    align-content: center;
+}
+
+
